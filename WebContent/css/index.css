@@ -1,0 +1,245 @@
+body{
+	padding: 0px;
+	margin:0px;
+	background-image:none;
+	position:static;
+	left:auto;
+	margin-left:0;
+	margin-right:0;
+	text-align:left;
+	height: 1992px;
+}
+
+.container{
+	position: relative;
+	width: 1920px;
+	height: 100%;
+	background-color: lightgrey;
+	overflow-x: hidden;
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	line-height: 100px;
+}
+
+#logo{
+	position: relative;
+	left: 300px;
+	top: 15px;
+	background-image: url(../images/logo.jpg);
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+}
+
+.scrollPic{
+	position: relative;
+	top: 10px;
+	left: 395px;
+	width: 1131px;
+	height: 312px;
+	background-color: black;
+	cursor: pointer;
+}
+
+.lastPic{
+	position: relative;
+	width: 115px;
+	height: 312px;
+	float: left;
+	z-index: 1;
+}
+
+.lastPic:hover{
+	cursor: pointer;
+	background-image: url(../images/lastBG.png);
+	z-index: 1;
+}
+
+.nextPic{
+	position: relative;
+	float: right;
+	right: 0px;
+	width: 115px;
+	height: 312px;
+	z-index: 1;
+}
+
+.nextPic:hover{
+	cursor: pointer;
+	background-image: url(../images/nextBG.png);
+	z-index: 1;
+}
+
+.cursorIcon{
+	position: relative;
+	top: 140px;
+	left: 47px;
+	width: 21px;
+	height: 31px;
+	background-image: url(../images/index/chevron_left_u24.png);
+	z-index: 1;
+}
+
+.naviPoint{
+	position: relative;
+	width: 8px;
+	height: 5px;
+	border: 1px white solid;
+	border-radius: 5px;
+	float: left;
+	z-index: 1;
+}
+
+#siteName{
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	position: relative;
+}
+
+.header ul{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	list-style: none;
+}
+
+.header li{
+	text-align: center;
+	position: relative;
+	float: left;
+	width: 150px;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	color: black;
+}
+
+.header li:hover{
+	background-color: blueviolet;
+}
+
+.header a{
+	color: black;
+	text-decoration: none;
+}
+
+.header a:visited{
+	color: black;
+}
+
+#searchContent{
+	position: relative;
+	height: 40px;
+	width:350px;
+	font-size: 30px;
+	visibility: hidden;
+}
+
+#searchIconP{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+}
+
+#searchIcon{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#searchIconM{
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.scrollImg{
+	position: relative;
+	width: 1131px;
+	height: 312px;
+	z-index: 0;
+}
+
+.hotSongContainer{
+	position: relative;
+	top: 50px;
+	left: 395px;
+	width: 1131px;
+	height: 660px;
+}
+
+.hotUserContainer{
+	position: relative;
+	top: 150px;
+	left: 395px;
+	width: 1131px;
+	height: 618px;
+}
+
+.hotSong{
+	position: relative;
+	width: 290px;
+	height: 290px;
+	float: left;
+}
+
+.hotSong img{
+	position: relative;
+	top: 31px;
+	width: 259px;
+	height: 259px;
+}
+
+.hotSongInfo{
+	position: relative;
+	font-size: 25px;
+	top: -45px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	width: 259px;
+	height:72px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.hotUser{
+	position: relative;
+	width: 290px;
+	height: 290px;
+	float: left;
+}
+
+.hotUser img{
+	position: relative;
+	width: 259px;
+	height: 259px;
+	top: 30px;
+	left:31px;
+	float: left;
+}
+
+.footer{
+	position: relative;
+	top: 200px;
+	width: 100%;
+	height: 100px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	cursor:pointer;
+}
+
+a:visited{
+	color: black;
+}
